@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 20px 50px 50px 50px;
+    width: 25%;
+    background-color: #fcc41c;
+    border: 5px #FFFFFC solid;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+}
+
+.container .flex{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.container small{
+    color: white;
+    font-size: 1rem;
+    text-shadow: 1px 1px black;
+}
+
+.container h2{
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 3.5rem;
+}
+
+.container input{
+    width: 75%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: none;
+    color: #fc7404;
+}
+
+.container h3{
+    background-color: white;
+    border: 2px white solid;
+    margin: 2px;
+    color: #fc7404;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.container p{
+    color: white;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px black;
+}
+
+.container button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    border: 2px white solid;
+    width: 25%;
+    background-color: white;
+    color: #fc7404;
+    transition: 250ms;
+}
+
+.container button:hover{
+    background-color: #fc7404;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.9);
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+    .container{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container h2{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .container{
+        width: 90%;
+    }
+}
