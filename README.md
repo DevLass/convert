@@ -4,7 +4,7 @@
   <img src="https://github.com/italicnich/convert/blob/master/readmeimg/img-gif.gif" alt="Page Preview">
 </p>
 
-<h3 align="justify"> <i> Hey there, this is my weather forecaster with react js, bootstrap, and API Rest. Among the technologies mentioned, I made use of the UseState hook, simple bootstrap classes for agile development, and <a href="https://www.weatherapi.com/">Wheater API </a> as a data source. <br><br> If you test the application, you will probably have to renew the API key as it expires over time.</i> </h3>
+<h3 align="justify"> <i> This is my currency to BRL converter, it is very simple and it was one of the first projects I did with React, it uses the UseState hook and the <a href="https://docs.awesomeapi.com.br/api-de-moedas">currency quote API</a>. <br><br> Perhaps another relevant point is the background made only with CSS, other versions of it can be found <a href="https://www.gradientmagic.com/collection/brilliantangular">here</a>.</i> </h3>
 
  
 <h3 align="justify">
